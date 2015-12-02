@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:pv="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="cn.yangbingqiang.android.parallaxviewpager.sample.MainActivity">
+
+    <cn.yangbingqiang.android.parallaxviewpager.ParallaxViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        pv:interpolator="@anim/decelerate_interpolator"
+        pv:mode="right_overlay"
+        pv:outset="62%"
+        pv:shadow_width="30dp"/>
+</FrameLayout>
