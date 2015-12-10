@@ -24,7 +24,7 @@
 ## Gradle Dependency
 ``` gradle
 dependencies {
-   compile 'cn.yangbingqiang.android:parallaxviewpager:1.0.0'
+   compile 'cn.yangbingqiang.android:parallaxviewpager:1.0.1'
  }
 ``` 
 
