@@ -3,9 +3,9 @@
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             tools:context="cn.yangbingqiang.android.parallaxviewpager.sample.MainActivity">
+             tools:context="com.github.ybq.parallaxviewpager.sample.MainActivity">
 
-    <cn.yangbingqiang.android.parallaxviewpager.ParallaxViewPager
+    <com.github.ybq.parallaxviewpager.ParallaxViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -1,4 +1,4 @@
-package cn.yangbingqiang.android.parallaxviewpager;
+package com.github.ybq.parallaxviewpager;
 
 /**
  * Author : ybq

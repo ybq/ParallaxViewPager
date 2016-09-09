@@ -1,3 +1,1 @@
-<manifest
-    package="cn.yangbingqiang.android.parallaxviewpager">
-</manifest>
+<manifest package="com.github.ybq.parallaxviewpager"></manifest>

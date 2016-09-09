@@ -11,7 +11,7 @@
 
 ## Usage
 ```xml
- <cn.yangbingqiang.android.parallaxviewpager.ParallaxViewPager
+ <com.github.ybq.parallaxviewpager.ParallaxViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -22,10 +22,23 @@
 ``` 
 
 ## Gradle Dependency
-``` gradle
-dependencies {
-   compile 'cn.yangbingqiang.android:parallaxviewpager:1.0.1'
- }
+ 1. Add the JitPack repository to your build file
+
+	```gradle
+	allprojects {
+				repositories {
+					...
+					maven { url "https://jitpack.io" }
+				}
+	}
+	```
+
+ 2. Add the dependency
+
+    ``` gradle
+    dependencies {
+       compile 'com.github.ybq:parallaxviewpager:2.0.0'
+     }
 ``` 
 
 
